@@ -1,1 +1,5 @@
 bday/*
+memoreminder/db.sqlite3
+memoreminder/memoreminder/__pycache__/*
+memoreminder/notifier/migrations/*
+memoreminder/notifier/__pycache__/*

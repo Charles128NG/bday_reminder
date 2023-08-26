@@ -4,7 +4,7 @@ from django.db import models
 class Notification(models.Model):
     Name = models.CharField(max_length=150)
     Occasion = models.CharField(max_length=100)
-    Date = models.DateField()
+    Date = models.DateField()#mm-dd
 
     def __str__(self):
         return self.Name

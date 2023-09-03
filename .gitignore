@@ -4,3 +4,4 @@ memoreminder/memoreminder/__pycache__/*
 memoreminder/notifier/migrations/*
 memoreminder/notifier/__pycache__/*
 memoreminder/__pycache__/*
+memoreminder/static/*

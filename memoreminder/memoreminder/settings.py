@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'notifier',
-    'django_crontab',
 ]
 
 MIDDLEWARE = [
@@ -138,7 +137,3 @@ EMAIL_PORT = 587
 EMAIL_USE_SSL = False
 EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER")
 EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")
-
-CRONJOBS = [
-    ('13 19 * * *', 'notifier.views.notify'),
-]
